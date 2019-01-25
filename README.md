@@ -10,11 +10,11 @@ I have used two different approaches:
 
 2. Using the [GraphQL Modules][graphql-modules-toolset] toolset, that integrates with Apollo Server.
 
-This repository contains examples for both apporaches.
+This repository contains examples for both approaches.
 
 ## Usage
 
-First, clone the this repository and install the dependencies:
+First, clone this repository and install the dependencies:
 
 ```shell
 $ yarn
