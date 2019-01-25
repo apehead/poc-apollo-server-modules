@@ -1,0 +1,23 @@
+{
+  "name": "poc-apollo-server-modules",
+  "version": "0.0.0",
+  "description": "POC - Apollo Server and GraphQL modules",
+  "author": "Alexander Curiel <alexander.curiel@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start:apollo:modules": "nodemon ./examples/apollo-modules/index.js",
+    "start:graphql:modules": "nodemon ./examples/graphql-modules/index.js index.js"
+  },
+  "dependencies": {
+    "@graphql-modules/core": "^0.3.0",
+    "@graphql-modules/di": "^0.3.0",
+    "apollo-server": "^2.3.1",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
